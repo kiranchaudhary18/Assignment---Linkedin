@@ -14,7 +14,7 @@ const dbName = "linkedin";
 app.use(express.json());
 app.use(cors());
 
-let db, users
+let db, user
 
 // Connect to MongoDB and initialize collections
 async function initializeDatabase() {
